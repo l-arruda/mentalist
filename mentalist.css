@@ -1,0 +1,98 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    min-height: 600px;
+    background-color: #4B4C5B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://mixdeseries.com.br/wp-content/uploads/2020/06/The-Mentalist-2.jpg");
+  }
+  
+  .container {
+    text-align: center;
+    padding: 100px;
+    background-repeat: no-repeat;
+    size: 100px
+  }
+  
+  .botao {
+    color: black;
+    cursor:pointer;
+    background:linear-gradient(to bottom, #4B4C5B 5%, #ffffff  100%);
+    font-family: "Barlow Condensed', sans-serif" ;
+    font-size: 25px;
+    
+  }
+  .botao:hover {
+   background:linear-gradient(to bottom, #ffffff  5%,  #4B4C5Bff  100%);
+  }
+
+  .jogarNovamente:hover {
+   background:linear-gradient(to bottom, #ffffff  5%,  #4B4C5Bff  100%);
+  }
+
+  .jogarNovamente {
+    color: black;
+    cursor:pointer;
+    background:linear-gradient(to bottom, #4B4C5B 5%, #ffffff  100%);
+    font-family: "Barlow Condensed', sans-serif" ;
+    font-size: 25px;
+  }
+  
+  .input {
+    color: black;
+    size: 20px;
+    top: 40px;
+    padding: 10px;
+    font-family: "Barlow Condensed', sans-serif" ;
+    font-size: 20px;
+  }
+  
+  .page-title {
+    color: black;
+    margin: 0 0 5px;
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-top: 35px;
+  }
+  
+  .page-subtitle {
+    color: black;
+    margin-top: 5px;
+    font-size: 40px;
+  }
+  
+  .page-logo {
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    right:0x;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: relative;
+    top: -500px;
+    left: 500px;
+  }
+  
+  .texto {
+    width: 100px;
+    height: 20px;
+    top: 50px;
+    position: relative;
+  }
+  
+  
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
